@@ -8,22 +8,31 @@ git init
 
 ## Удаление репозитория
 ```
-rm -rf .git (-r папку и содержимое, -f без вопросов "уверены?")
+rm -rf .git
 ```
+-r папку и содержимое  
+-f без вопросов "уверены?"
+
 
 ## Проверка репозитория и лог
 ```
 git status
+```
 
+```
 git log
+```
 
+```
 git log --oneline
 ```
 
 ## Добавление файлов
 ```
-git add --all (или git add <имя файла>)
+git add --all
 ```
+или git add <имя файла>
+
 
 ## Коммит
 ```
@@ -37,7 +46,12 @@ git remote add origin <ssh ссылка на репозиторий>
 
 ## Синхронизация репозитория
 ```
-git push - u origin master (или main. так подробно только в первый раз)
+git push - u origin master
+```
+master или main
+Так подробно только в первый раз
+
+```
 git push
 ```
 
@@ -46,14 +60,14 @@ modified - файл изменен
 tracked - Git следит / untraked - не следит
 staged - после git add
 
-### Общее
+## Хэш
 Внутри .git есть HEAD указывающий на хеш самого последнего коммита
 
+## Подсказки по оформлению README.md
+[Шпаргалка по Markdown](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c)
 
 ``` C
 #import <test.cpp>
 
 int a = 12;
 ```
-
-[Ссылка Google](https://www.google.com "Сайт Google")
