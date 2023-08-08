@@ -92,3 +92,17 @@ git commit --amend --no-edit
 ```
 git commit --amend -m "Изменение сообщения"
 ```
+
+## Откат
+До публикации удалить
+```
+git restore --staged <file>
+```
+До публикации уже модифицированный файл
+```
+git restore <file>
+```
+После публикации откатиться к коммиту по номеру хэша
+```
+git reset --hard <hash>
+```
