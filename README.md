@@ -1,5 +1,5 @@
 # Hello
-```
+``` C++
 #import <test.cpp>
 
 int a = 12;
