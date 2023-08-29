@@ -35,8 +35,11 @@ git log --oneline
 ```
 git add --all
 ```
-или git add <имя файла>
-
+или git add <имя файла>  
+Еси возникает ошибка CRCL
+```
+git config --global core.autocrlf false
+```
 
 ## Коммит
 ```
@@ -51,7 +54,7 @@ git remote add origin <ssh ссылка на репозиторий>
 ## Синхронизация репозитория
 Так подробно только в первый раз
 ```
-git push - u origin master
+git push -u origin master
 ```
 master или main
 
