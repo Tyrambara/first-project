@@ -36,6 +36,7 @@ git log --oneline
 git add --all
 ```
 или git add <имя файла>  
+
 Еси возникает ошибка CRCL
 ```
 git config --global core.autocrlf false
