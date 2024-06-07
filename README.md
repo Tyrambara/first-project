@@ -42,7 +42,6 @@ git add --all
 git config --global core.autocrlf false
 ```
 Notepad++ --> Правка --> Формат конца строк --> Преобразовать в Win-формат (CRLF)
-```
 
 ## Коммит
 ```
