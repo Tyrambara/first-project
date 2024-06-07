@@ -37,9 +37,11 @@ git add --all
 ```
 или git add <имя файла>  
   
-Есkи возникает ошибка CRCL
+Если возникает ошибка CRCL
 ```
 git config --global core.autocrlf false
+```
+Notepad++ --> Правка --> Формат конца строк --> Преобразовать в Win-формат (CRLF)
 ```
 
 ## Коммит
